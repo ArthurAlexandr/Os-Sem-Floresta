@@ -1,82 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
 body {
-    font-family: "Tauri" , sans-serif;
-    background-color: rgb(19, 19, 19);
-    color: #ffffff;
-    max-width: 1200px;
-    margin: 0 auto;
+  font-family: "Tauri" , sans-serif;
+  background-color: #040b11;
+  color: #ffffff;
 }
 
-.container{
-  padding: 0px 6%;
-}
-
-.img-inicio{
-  border-radius: 22%;
-  border: 8px solid #272c26;
-
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  
 }
 
 .icone-head{
-  margin-right: 58%;
+  height: 60px;
+  left: 50px;
+  position: relative;
 }
 
-ul{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 1% 13%;
-  list-style-type: none;
+.geral{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.txt-i{
+  display: inline-block;
+  margin: 20px;
+}
+
+.txt-i:hover{
+  color: white;
 }
 
 a{
-  color: #727272;
-  text-decoration: none;
-}
-
-li{
-  margin-left: 10%;
-}
-
-nav ul li a:hover{
-  color: #ffffff; 
+  color: #888484;
 }
 
 .wrapper{
-  display: grid;
-  grid-template-columns: 900px 100px 200px;
-  margin-top: 100px;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 63px;
 }
 
-.inicio-esquerda{
-  margin-top: 90px;
-  margin-left: 80px;
-  margin-right: 100px;
-}
-
-.inicio-direita{
-    margin-bottom: 164px;
+.img-inicio{
+  width: 380px;
+  border-radius: 50px;
 }
 
 h1{
   font-size: 70px;
 }
 
-.descricao{
-  font-size: 20px;
-
+.inicio-esquerda{
+  padding: 40px;
 }
 
-.integrantes {
+.inicio-direita{
+  padding: 0 65px;
+}
+
+.integrantes{
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 300%;
+  justify-content: center;
+  font-size: 50px;
 }
 
-.int-esquerda{
-    display: grid;
-    grid-template-columns: 400px 200px 200px;
+.int-e{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.int-e-desc{
+  padding: 30px 100px 30px;
+}
+  
+.icone-e {
+  display: flex;
+  flex-direction: row;
+  padding: 0 60px 0 0;
+  right: 50%;
+  top: 138px;
+  position: relative;
+}
+
+i{
+  padding: 0 5px;
+  height: 100px;
+}
